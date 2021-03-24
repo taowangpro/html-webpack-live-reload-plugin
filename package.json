@@ -1,6 +1,6 @@
 {
   "name": "html-webpack-live-reload-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reloads browser when watching any assets changes, friends with html-webpack-plugin / webpack5",
   "main": "index.js",
   "scripts": {
@@ -23,10 +23,9 @@
     "url": "https://github.com/taowangpro/html-webpack-live-reload-plugin/issues"
   },
   "homepage": "https://github.com/taowangpro/html-webpack-live-reload-plugin#readme",
-  "devDependencies": {
-    "socket.io": "^4.0.0"
-  },
+  "devDependencies": {},
   "dependencies": {
-    "html-webpack-plugin": "^5.3.1"
+    "html-webpack-plugin": "^5.3.1",
+    "socket.io": "^4.0.0"
   }
 }
