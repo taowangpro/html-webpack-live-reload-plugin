@@ -1,4 +1,4 @@
-# html-webpack-live-reload-plugin
+# html-webpack-livere-load-plugin
 Reloads browser when watching any assets changes, friends with html-webpack-plugin / webpack5
 
 > This intentionally works with the last webpack 5, html-webpack-plugin inject html with assets feature
@@ -28,10 +28,8 @@ new HtmlWebpackLiveReload(options)
 HtmlWebpackLiveReload does only watch live reload via standalone socket.io
 - It has to another web server to handle http(s)
 - The standalone socket.io has different web origin. Most of browser block this working. The worth case, the live reload stopped. 
-- To overcome this, "Moesif Origin" browser extionsion is the easiest, assuming we are dev nerd
+- To overcome this, "Moesif Origin" browser extension is the easiest. I do not want to anything extra in production code. So, developer do one more thing, please
 
-## The Final
-very basic, send me email for more feature.
-Thanks
-
-
+## The End
+Simple and do the work for me.
+Thanks.
