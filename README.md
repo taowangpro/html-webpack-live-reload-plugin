@@ -1,4 +1,4 @@
-# html-webpack-livere-load-plugin
+# html-webpack-live-reload-plugin
 Reloads browser when watching any assets changes, friends with html-webpack-plugin / webpack5
 
 > This intentionally works with the last webpack 5, html-webpack-plugin inject html with assets feature
