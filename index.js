@@ -13,10 +13,12 @@ class HtmlWebpackLiveReload {
       isWatching: !!(process.argv.find((a) => /--watch(=true)?/.test(a))),
     };
 
+    console.log(`\nLiveLoad is going to run on port ${this.options.port}! To avoid "Access-Control-Allow-Origin" blocking, "Moesif Origin" browser extionsion is the easiest`)
+
     if (this.options.isWatching) {
       const io = socketio(this.options.port);
       io.on("connection", socket => {
-        console.log(`\nLiveLoad is up on port ${this.options.port}! To avoid "Access-Control-Allow-Origin" blocking, "Moesif Origin" browser extionsion is the easiest, dev nerd ;-)`)
+        console.log(`LiveLoad got connected, is live.`)
       });
 
       this.options.io = io;
